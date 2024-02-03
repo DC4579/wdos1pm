@@ -290,7 +290,7 @@ nav li:last-child {
 .images {
   display: flex;
   justify-content: center;
-  gap: 12px;
+  gap: 28px;
 }
 
 .images img {
