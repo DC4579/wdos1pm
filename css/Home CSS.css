@@ -30,16 +30,7 @@ body{
   
   overflow-x: hidden;
 
-  /*.logo {
-    width: 100%;
-    height: auto;
-    margin: auto;
-    justify-content: left;
-    align-items: left;
-    position:absolute;
-    left: 20px;
-    padding: 20px;
-    bottom: 10px;*/
+
     .logo {
       position: absolute;
       left: 20px;
@@ -171,9 +162,7 @@ nav li:last-child {
 
 
 
-/*.logo figcaption {
-  text-align: left;
-}*/
+
 .headname {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
   position: absolute;
@@ -467,57 +456,7 @@ nav li:last-child {
   }
 }
 
-/*.Home {
-  --g: 7.5px;   /* the gap */
-  /*--s: 100px; /* the size /*
- 
-  /*display: grid;
-  border-radius: 50%;
-  align-items: center;
-  padding: 30px;
-  justify-content: center;
-}
 
-.Home > img {
-  grid-area: 1/1;
-  width: 400px;
-  aspect-ratio: 1;
-  object-fit: cover;
-  border-radius: 50%;
-  transform: translate(var(--_x,0),var(--_y,0));
-  cursor: pointer;
-  z-index: 0;
-  transition: .3s, z-index 0s .3s;
-  align-items: center;
-}
-.Home img:hover {
-  --_i: 1;
-  z-index: 1;
-  transition: transform .2s, clip-path .3s .2s, z-index 0s;
-}
-.Home:hover img {
-  transform: translate(0,0);
-}
-.Home > img:nth-child(1) {
-  clip-path: polygon(50% 50%,calc(50%*var(--_i,0)) calc(120%*var(--_i,0)),0 calc(100%*var(--_i,0)),0 0,100% 0,100% calc(100%*var(--_i,0)),calc(100% - 50%*var(--_i,0)) calc(120%*var(--_i,0)));
-  --_y: calc(-1*var(--g))
-}
-.Home > img:nth-child(2) {
-  clip-path: polygon(50% 50%,calc(100% - 120%*var(--_i,0)) calc(50%*var(--_i,0)),calc(100% - 100%*var(--_i,0)) 0,100% 0,100% 100%,calc(100% - 100%*var(--_i,0)) 100%,calc(100% - 120%*var(--_i,0)) calc(100% - 50%*var(--_i,0)));
-  --_x: var(--g)
-}
-.Home > img:nth-child(3) {
-  clip-path: polygon(50% 50%,calc(100% - 50%*var(--_i,0)) calc(100% - 120%*var(--_i,0)),100% calc(100% - 120%*var(--_i,0)),100% 100%,0 100%,0 calc(100% - 100%*var(--_i,0)),calc(50%*var(--_i,0)) calc(100% - 120%*var(--_i,0)));
-  --_y: var(--g)
-}
-.Home > img:nth-child(4) {
-  clip-path: polygon(50% 50%,calc(120%*var(--_i,0)) calc(50%*var(--_i,0)),calc(100%*var(--_i,0)) 0,0 0,0 100%,calc(100%*var(--_i,0)) 100%,calc(120%*var(--_i,0)) calc(100% - 50%*var(--_i,0)));
-  --_x: calc(-1*var(--g))
-}
-.Home{
-  align-items: center;
-  text-align: center;
-}*/
  .footer{
     background:#000;
     padding:0px 0px;
